@@ -21,7 +21,9 @@ public class Movie {
         int counter = 0;
         for (Actor act : actors
         ) {
-            if (((releaseDate - act.getBirthDate()) > 19) && ((releaseDate - act.getBirthDate()) < 30)) {
+            int age =releaseDate - act.getBirthDate();
+            if ((age > 19) && (age < 30))
+            {
                 counter++;
             }
         }
