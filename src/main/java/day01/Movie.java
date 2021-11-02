@@ -24,8 +24,6 @@ public class Movie {
             if (((releaseDate - act.getBirthDate()) > 19) && ((releaseDate - act.getBirthDate()) < 30)) {
                 counter++;
             }
-
-
         }
         return counter;
     }
